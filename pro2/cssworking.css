@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+
+
+}
+
+.block{
+	text-align: center;
+
+	margin-top:230px;
+}
+.Dashboard
+{   border: 2px red solid;
+	padding: 30px;
+	width:80%;	
+	text-align: center;
+	margin: auto;
+	margin-top: 30px; 
+	margin-bottom: 70px; 
+	font:bold 16px Arial,sans-serif;
+	letter-spacing: 0.15em;
+
+
+}
+
+
+
+.box{
+	border: 4px white solid;
+	padding: 30px;
+	width:30%;	
+	text-align: center;
+	margin: auto;
+	margin-top: 30px; 
+	margin-bottom: 70px; 
+	font:bold 16px Arial,sans-serif;
+	letter-spacing: 0.15em;
+
+}
+
+
+
+.head{
+	padding: 20px;
+	text-align: center;
+
+	color:white;
+	
+	font-size: 30px;
+}
+.button{
+	padding:10px 24px ;
+	width: 200px;
+	font-size: 20px;
+	height: 40px;	
+	color: rgb(5, 18, 43);
+	background-color: white;
+	text-align: center; 
+}
+.button:hover{
+	background-color: rgb(34, 75, 240);
+	color: white;
+}
+.button:visited{
+	background-color: black;
+}
+.box .my_form label{
+	display:block;
+	text-align: left;
+;
+	
+
+}
+.box .my_form input, .box .my_form select{
+	width:90%;
+	padding:7px;
+	margin:10px;
+
+}
+.error-message {
+	padding: 7px 10px;
+	background: #fff1f2;
+	border: #ffd5da 1px solid;
+	color: #d6001c;
+	border-radius: 4px;
+}
+.titlebar{
+	width:100%;
+	font:bold 30px Arial,sans-serif;
+	height: 10px;
+	padding-top: 0px;
+	padding: 20px;
+	margin:40px;
+	margin-top: 50px;
+
+}
+.csf_games{
+	text-align: center;
+	font-weight: bold ;
+	margin-top: 100px;
+	font-size: 30px;
+	width: 70%
+	float= left;
+}

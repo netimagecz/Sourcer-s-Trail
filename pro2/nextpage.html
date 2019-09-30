@@ -1,0 +1,41 @@
+<?php
+session_start();
+include ("connection.php");
+
+ error_reporting(0);
+$email=$_SESSION['email']; 
+
+ if($email )
+{
+    echo "     Welcome ".$email;
+    
+}  
+  
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body><div class="titlebar">
+        <a href="mainpage.php">Home</a>
+        <a href="login.php">Login</a>
+        <a href="Registeration.php">Register</a>
+        <a href="resetpasswd.php">Reset Password</a>
+
+        <a href="dashboard.php">Dashboard</a>
+    </div><hr>
+    <br>
+	<center>
+		<h1>You are on the next level...
+</h1>
+<input class="button" type="submit" name="level 1" value="Level 1">
+<input class="button" type="submit" name="level 2" value="Level 2">
+<input class="button" type="submit" name="level 3" value="Level 3">
+<input class="button" type="submit" name="level 4" value="Level 4">
+<input class="button" type="submit" name="level 5" value="Level 5">
+<input class="button" type="submit" name="level 6" value="Level 6">
+<input class="button" type="submit" name="level 7" value="Level 7">
+</center>
+</body>
+</html>
